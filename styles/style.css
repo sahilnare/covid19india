@@ -1,0 +1,118 @@
+*{
+    /* background-color: black; */
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    background-color: black;
+} */
+
+.cont {
+    padding: 10px 200px;
+    background-color: black;
+}
+
+.nav-tabs{
+    border-bottom: 0px !important;
+    padding: 12px;
+    background-color: black;
+}
+
+.nav-link{
+    padding-left: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+#info{
+    background-color: black;
+    padding: 20px 10px 40px 10px;
+}
+
+.card{
+    height: 8%;
+    padding: 10px;
+    display: flex;
+    margin: 0 50px;
+    /* width: 15%; */
+    text-align: center;
+}
+
+#global{
+    margin: 10px 42%;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #3a68cc;
+}
+
+#indian{
+    margin: 10px 42.5%;
+    padding: 45px 20px 20px 20px;
+    text-align: center;
+    color: #3a68cc;
+
+}
+
+#india {
+  width: 80%;
+  margin: auto;
+}
+
+#india h3 {
+  margin-top: 40px;
+}
+
+#world {
+  width: 80%;
+  margin: auto;
+}
+
+#world h3 {
+  margin-top: 40px;
+}
+
+#indiaMapDiv {
+  width: 100%;
+  height: 800px;
+  margin: 40px 10px;
+}
+
+#worldMapDiv {
+  width: 100%;
+  height: 800px;
+  margin: 20px 10px;
+}
+
+.confirmed{
+    color: #c33acc;
+}
+
+.infected{
+    color: #cc923a;
+}
+
+.recovered{
+    color:#3acc3c;
+}
+
+.deaths{
+    color: red;
+}
+
+.table{
+    text-align: center;
+    background-color: black;
+}
+
+th{
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+h2,h3{
+    color: #3a68cc;
+}
