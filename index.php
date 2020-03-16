@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="styles/style.css">
@@ -1536,3 +1537,4 @@
   </script>
 </body>
 </html>
+?>
