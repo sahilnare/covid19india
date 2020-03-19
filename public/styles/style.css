@@ -21,8 +21,34 @@
 
 .nav-link{
     padding-left: 12px;
-    width: 300px;
+    /* width: 300px; */
     text-align: center;
+}
+
+#myTab {
+  display: grid;
+  grid-template-areas: 'home news prev faq arti';
+  width: 100%;
+}
+
+#home-tab {
+  grid-area: home;
+}
+
+#news-tab {
+  grid-area: news;
+}
+
+#prevention-tab {
+  grid-area: prev;
+}
+
+#faq-tab {
+  grid-area: faq;
+}
+
+#article-tab {
+  grid-area: arti;
 }
 
 #info{
@@ -34,7 +60,7 @@
     height: 8%;
     padding: 10px;
     display: flex;
-    margin: 0 50px;
+    margin: 0 45px;
     /* width: 15%; */
     text-align: center;
 }
@@ -164,6 +190,10 @@ h2,h3{
       background-color: black;
   }
 
+  .card{
+      margin: 0 20px;
+  }
+
   .ammapDescriptionWindow {
     width: 180px !important;
     max-height: 350px !important;
@@ -231,6 +261,13 @@ h2,h3{
   .cont {
       padding: 10px 40px;
       background-color: black;
+  }
+
+  #myTab {
+    display: grid;
+    grid-template-areas: 'home news prev'
+                        'faq arti';
+    width: 100%;
   }
 
   .ammapDescriptionWindow {
