@@ -133,10 +133,10 @@ h2,h3{
   padding: 10px;
   border-radius: 5px;
   /* overflow: auto; */
-  width: 180px !important;
+  width: 200px !important;
   max-height: 300px !important;
-  left: 400px !important;
-  top: 300px !important;
+  right: 200px !important;
+  top: 500px !important;
 }
 
 .ammapDescriptionTitle {
