@@ -127,11 +127,54 @@ h2,h3{
     color: #3a68cc;
 }
 
+.ammapDescriptionWindow {
+  background-color: #ccc;
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 5px;
+  /* overflow: auto; */
+}
+
+.ammapDescriptionTitle {
+
+}
+
+.ammapDescriptionWindow h1 {
+  font-size: 3em;
+  margin-bottom: 10px !important;
+}
+
+.ammapDescriptionWindow h2 {
+  font-size: 2em;
+  margin-bottom: 10px !important;
+}
+
+.ammapDescriptionText h2,h1 {
+  color: black;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) {
 
   .cont {
       padding: 10px 80px;
       background-color: black;
+  }
+
+  .ammapDescriptionWindow {
+    width: 250px !important;
+    max-height: 300px !important;
+    left: 400px !important;
+    top: 500px !important;
+  }
+
+  .ammapDescriptionWindow h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+
+  .ammapDescriptionWindow h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
   }
 
   #indian-list {
@@ -176,6 +219,8 @@ h2,h3{
     margin: 40px 10px;
   }
 }
+
+
 
 @media (max-width: 768px) and (min-width: 600px) {
 

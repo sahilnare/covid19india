@@ -103,6 +103,7 @@ window.onload = function() {
   },
 
   "legend": {
+    "divId": "mapBox",
     "backgroundColor": "#fff",
     "backgroundAlpha": 0.4,
     "color": "#000",
