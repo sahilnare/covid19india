@@ -116,3 +116,93 @@ td{
 h2,h3{
     color: #3a68cc;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+  .cont {
+      padding: 10px 80px;
+      background-color: black;
+  }
+
+  #india {
+    width: 85%;
+    margin: auto;
+  }
+
+  #world {
+    width: 85%;
+    margin: auto;
+  }
+
+  #indiaMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+
+  #worldMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+
+  .cont {
+      padding: 10px 40px;
+      background-color: black;
+  }
+
+  #india {
+    width: 90%;
+    margin: auto;
+  }
+
+  #world {
+    width: 90%;
+    margin: auto;
+  }
+
+  #indiaMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+
+  #worldMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .cont {
+      padding: 10px 20px;
+      background-color: black;
+  }
+
+  #india {
+    width: 95%;
+    margin: auto;
+  }
+
+  #world {
+    width: 95%;
+    margin: auto;
+  }
+
+  #indiaMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+
+  #worldMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+}
