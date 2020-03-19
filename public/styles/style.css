@@ -133,6 +133,10 @@ h2,h3{
   padding: 10px;
   border-radius: 5px;
   /* overflow: auto; */
+  width: 180px !important;
+  max-height: 300px !important;
+  left: 400px !important;
+  top: 300px !important;
 }
 
 .ammapDescriptionTitle {
@@ -141,12 +145,12 @@ h2,h3{
 
 .ammapDescriptionWindow h1 {
   font-size: 3em;
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
 .ammapDescriptionWindow h2 {
   font-size: 2em;
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
 .ammapDescriptionText h2,h1 {
@@ -161,10 +165,10 @@ h2,h3{
   }
 
   .ammapDescriptionWindow {
-    width: 250px !important;
-    max-height: 300px !important;
+    width: 180px !important;
+    max-height: 350px !important;
     left: 400px !important;
-    top: 500px !important;
+    top: 300px !important;
   }
 
   .ammapDescriptionWindow h1 {
@@ -229,6 +233,23 @@ h2,h3{
       background-color: black;
   }
 
+  .ammapDescriptionWindow {
+    width: 150px !important;
+    max-height: 350px !important;
+    left: 350px !important;
+    top: 300px !important;
+  }
+
+  .ammapDescriptionWindow h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+
+  .ammapDescriptionWindow h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
   #indian-list {
     width: 90%;
     font-size: 0.7rem;
@@ -280,6 +301,23 @@ h2,h3{
   .cont {
       padding: 10px 20px;
       background-color: black;
+  }
+
+  .ammapDescriptionWindow {
+    width: 150px !important;
+    max-height: 350px !important;
+    left: 300px !important;
+    top: 300px !important;
+  }
+
+  .ammapDescriptionWindow h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+  .ammapDescriptionWindow h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
   }
 
   #indian-list {
