@@ -296,7 +296,7 @@ h2,h3{
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 450px) {
 
   .cont {
       padding: 10px 20px;
@@ -307,6 +307,75 @@ h2,h3{
     width: 150px !important;
     max-height: 350px !important;
     left: 300px !important;
+    top: 300px !important;
+  }
+
+  .ammapDescriptionWindow h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+  .ammapDescriptionWindow h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  #indian-list {
+    width: 95%;
+    font-size: 0.5rem;
+    margin: auto;
+  }
+
+  #country-list {
+    width: 95%;
+    font-size: 0.5rem;
+    margin: auto;
+  }
+
+  #indian-list table {
+    width: 96%;
+    margin: auto;
+  }
+
+  #country-list table {
+    width: 96%;
+    margin: auto;
+  }
+
+  #india {
+    width: 95%;
+    margin: auto;
+  }
+
+  #world {
+    width: 95%;
+    margin: auto;
+  }
+
+  #indiaMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+
+  #worldMapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 40px 10px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .cont {
+      padding: 10px 20px;
+      background-color: black;
+  }
+
+  .ammapDescriptionWindow {
+    width: 150px !important;
+    max-height: 350px !important;
+    left: 200px !important;
     top: 300px !important;
   }
 
