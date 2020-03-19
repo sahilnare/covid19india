@@ -373,10 +373,10 @@ h2,h3{
   }
 
   .ammapDescriptionWindow {
-    width: 150px !important;
+    width: 130px !important;
     max-height: 350px !important;
-    left: 200px !important;
-    top: 300px !important;
+    left: 190px !important;
+    top: 310px !important;
   }
 
   .ammapDescriptionWindow h1 {
