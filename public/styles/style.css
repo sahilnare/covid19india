@@ -77,7 +77,6 @@
     padding: 45px 20px 20px 20px;
     text-align: center;
     color: #3a68cc;
-
 }
 
 #indian-list {
@@ -263,6 +262,22 @@ h2,h3{
       background-color: black;
   }
 
+  #global{
+      width: 60%;
+      text-align: center;
+      margin: 10px auto;
+      padding-bottom: 20px;
+      font-size: 2em;
+  }
+
+  #indian{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    font-size: 2em;
+  }
+
   .ammapDescriptionWindow {
     width: 150px !important;
     max-height: 350px !important;
@@ -333,6 +348,22 @@ h2,h3{
       background-color: black;
   }
 
+  #global{
+      width: 60%;
+      text-align: center;
+      margin: 10px auto;
+      padding-bottom: 20px;
+      font-size: 2em;
+  }
+
+  #indian{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    font-size: 2em;
+  }
+
   .ammapDescriptionWindow {
     width: 150px !important;
     max-height: 350px !important;
@@ -400,6 +431,22 @@ h2,h3{
   .cont {
       padding: 10px 20px;
       background-color: black;
+  }
+
+  #global{
+      width: 60%;
+      text-align: center;
+      margin: 10px auto;
+      padding-bottom: 20px;
+      font-size: 2em;
+  }
+
+  #indian{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    font-size: 2em;
   }
 
   .ammapDescriptionWindow {
