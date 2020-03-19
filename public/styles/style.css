@@ -54,6 +54,16 @@
 
 }
 
+#indian-list {
+  width: 90%;
+  margin: auto;
+}
+
+#country-list {
+  width: 90%;
+  margin: auto;
+}
+
 #india {
   width: 80%;
   margin: auto;
@@ -124,6 +134,26 @@ h2,h3{
       background-color: black;
   }
 
+  #indian-list {
+    width: 85%;
+    margin: auto;
+  }
+
+  #country-list {
+    width: 85%;
+    margin: auto;
+  }
+
+  #indian-list table {
+    width: 96%;
+    margin: auto;
+  }
+
+  #country-list table {
+    width: 96%;
+    margin: auto;
+  }
+
   #india {
     width: 85%;
     margin: auto;
@@ -154,8 +184,31 @@ h2,h3{
       background-color: black;
   }
 
+  #indian-list {
+    width: 90%;
+    font-size: 0.7rem;
+    margin: auto;
+  }
+
+  #country-list {
+    width: 90%;
+    font-size: 0.7rem;
+    margin: auto;
+  }
+
+  #indian-list table {
+    width: 96%;
+    margin: auto;
+  }
+
+  #country-list table {
+    width: 96%;
+    margin: auto;
+  }
+
   #india {
     width: 90%;
+    font-size: 0.7rem;
     margin: auto;
   }
 
@@ -182,6 +235,28 @@ h2,h3{
   .cont {
       padding: 10px 20px;
       background-color: black;
+  }
+
+  #indian-list {
+    width: 95%;
+    font-size: 0.5rem;
+    margin: auto;
+  }
+
+  #country-list {
+    width: 95%;
+    font-size: 0.5rem;
+    margin: auto;
+  }
+
+  #indian-list table {
+    width: 96%;
+    margin: auto;
+  }
+
+  #country-list table {
+    width: 96%;
+    margin: auto;
   }
 
   #india {
