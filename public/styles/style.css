@@ -84,9 +84,17 @@
   margin: auto;
 }
 
+#indian-list table * {
+  padding: 0.5rem
+}
+
 #country-list {
   width: 90%;
   margin: auto;
+}
+
+#country-list table * {
+  padding: 0.5rem
 }
 
 #india {
@@ -467,13 +475,13 @@ h2,h3{
   }
 
   #indian-list {
-    width: 90%;
+    width: 95%;
     font-size: 0.6rem;
     margin: auto;
   }
 
   #country-list {
-    width: 90%;
+    width: 95%;
     font-size: 0.6rem;
     margin: auto;
   }
